@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label4.Text" xml:space="preserve">
+    <value>A. Vẽ khung lưới:
+Bạn có thể chọn ô "Vẽ khung lưới" Để hiển thị các ô lưới tọa độ 
+giúp thuận thiện hơn cho việc quan sát
+
+B. Nút mở rộng:
+Dấu cộng nằm cạnh bên khung nhập đồ thị là nút mở rộng
+Nó sẽ cung cấp một số thứ cần thiết cho bạn:
+- Lượng giác: 
+sin, cos, tan, cotang,......
+-Logarit:
+-Các phép toán như lũy thừa, khai căn, ....
+-Các hằng số toán học như : số Pi, Số e,....</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Hỗ trợ vẽ hàm số bất kì  f(x)=........
+-   Bạn chỉ cần nhập một vế của biểu thức. sau dấu =
+Chẳng hạn bạn muốn vẽ hàm y=x+2
+Bạn sẽ nhập x+2 vào ô nhập
+
+-   Hàm số được nhập cần phải có đầy đủ dấu. Kể cả dấu ngoặc
+Ví dụ hàm hợp lệ : 2*x, 3*x+2, 5*x/3,sin(x)+2,...
+Ví dụ hàm không hợp lệ: 4x, sinx, cosx,...
+
+-Hàm số được nhập phải là hàm hợp lệ và tính toán được.
+Ví dụ các hàm không hợp lệ: x/0, /2+3
+
+-Các số thập phân sẽ được sử dụng dấu chấm để biểu diễn
+Ví dụ: 2.3   ,    2.5,     7.6    ,.......
+ 
+--Các phép nhân sẽ dùng dấu "*" để biểu diễn
+Ví dụ:  ba nhân năm sẽ được biểu diễn thành : 3*5
+
+-Các phân số sẽ dùng dấu "/" để biểu diễn
+Ví dụ:  phân số hai phần ba sẽ được biểu diễn thành : 2/3
+
+-Các số mũ sẽ dùng dấu "^" để biểu diễn
+Ví dụ: năm mũ bảy sẽ được biểu diễn thành 5^7
+
+-Căn bậc hai của một số sẽ được biểu diễn là sqrt()
+Ví dụ: căn bậc hai của tám sẽ được biểu diễn thành sqrt(8)
+
+-Bình phương của một số sẽ được biểu diễn là sqr()
+Ví dụ: bình phương của chín sẽ được biểu diễn thành sqr(9)
+
+-Trị tuyệt đối của một số sẽ được biểu diễn là abs()
+Ví dụ: Trị tuyệt đối của 7 sẽ được biểu diễn thành abs(7)
+
+-Đối với các hàm phức tạp cần dùng các dấu ngoặc để gom nhóm
+Ví dụ:   (2+x)*4 + (2/3)
+ 
+&gt;&gt;Lưu ý cho bạn: Sau khi nhập hàm xong có thể nhấn phím Enter 
+để vẽ thay vì phải chọn vào nút "Vẽ"</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>B. Hình chữ nhật:
+-Đối số đầu vào: Chiều dài, chiều rộng
+-Thao tác phụ:  Click tại một điểm. 
+-Kết quả: Hình chữ nhật sẽ được vẽ từ điểm đó qua bên phải 
+của bạn. Với chiều dài, chiều rộng như đã nhập.</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>A. Điểm
+Chọn vào nút vẽ điểm trên màn hình. 
+Bạn sẽ có hai lựa chọn:
+*Vẽ bằng cách Click lên màn hình:
+-Đối số đầu vào: Không có
+-Thao tác phụ: Click chuột lên màn hình tại tọa độ bạn muốn vẽ
+-Kết quả: Hiển thị ra màn hình điểm bạn đã vẽ
+*Vẽ theo tọa độ: 
+-Đối số đầu vào: Tọa độ X, tọa độ Y
+-Thao tác phụ:  Không có
+-Kết quả: Hiển thị ra màn hình điểm bạn đã vẽ theo tọa độ đã nhập
+</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>+ Ở đây sẽ hiển thị:
+-Tên các đồ thị điểm và hình học mà bạn đã vẽ
+-Số lượng đối tượng đang hiển thị trên vùng vẽ
+-Đối tượng mà bạn đang chọn
++ Xóa một đối tượng đang hiển thị trên vùng vẽ
+Bằng cách chọn đối tượng đó rồi chọn nút "Xóa"
++Xóa tất cả đối tượng đang hiển thị trên vùng vẽ
+Bằng cách chọn đối tượng đó rồi chọn nút "Xóa tất cả"
+&gt;&gt;Lưu ý: Tùy vào bạn vẽ đối tượng điểm hay hình nào
+mà các thông tin sẽ hiển thị sao cho phù hợp
+</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>+ Ở đây sẽ hiển thị:
+-Tên các đồ thị hàm số mà bạn đã vẽ
+-Số lượng đối tượng đang hiển thị trên vùng vẽ
+-Đối tượng mà bạn đang chọn
++ Xóa một đối tượng đang hiển thị trên vùng vẽ
+Bằng cách chọn đối tượng đó rồi chọn nút "Xóa"
++Xóa tất cả đối tượng đang hiển thị trên vùng vẽ
+Bằng cách chọn đối tượng đó rồi chọn nút "Xóa tất cả"
+
+</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>-Bộ nút "thu/phóng"
+Phóng to, thu nhỏ tương ứng với tỉ lệ nhất định.
+Tỉ lệ này bạn quan sát ở vùng "thông tin"
+-Bộ nút "Lên/xuống/trái/phải"
+Di chuyển điểm nhìn của bạn. Giúp bạn quan sát 
+được các vùng phía xa gốc tọa độ hơn
+-Nút "mặc định"
+Đặt lại điểm nhìn và độ thu phóng như lúc bắt đầu
+&gt;&gt;Lưu ý: Bạn có thể nhấn giữ chuột đồng thời 
+kéo thả trực tiếp lên vùng vẽ để có thể di chuyển 
+điểm nhìn dễ dàng hơn</value>
+  </data>
+</root>
